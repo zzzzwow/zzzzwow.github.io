@@ -1,0 +1,66 @@
+body {
+font-family: system-ui;
+/* background: #f06d06; */
+color: black;
+text-align: center;
+}
+
+#heading {
+width:100%;
+font-family: system-ui;
+font-size:50px;
+height:120px;
+display:grid;
+align-items: center;
+}
+
+p {
+    font-size: 20px; /* 段落的字体大小 */
+    margin: 20px 0; /* 段落的上下边距，左右边距为0 */
+}
+
+nav a {
+    margin-top: 80px; 
+    color: blue; /* 默认蓝色 */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* 当前页面链接样式 */
+nav a.active {
+color: purple; /* 当前页面紫色 */
+}
+
+.line {
+    border: none;
+    height: 1px; /* 线的粗细 */
+    width: 90%; /* 线的宽度 */
+    background-color: gray; /* 线的颜色 */
+    margin-top: 30px; /* 线与文本的间距 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+width:85%;
+font-family: system-ui;
+font-size:20px;
+display:grid;
+align-items: center;
+margin-top: 30px;
+margin-left: 130px;
+text-align: justify;
+}
+
+#about .second {
+margin-bottom: 10px; 
+}
+
+#about img {
+padding: 6px;
+height: auto; 
+}
+
+.first {
+margin-bottom: 10px; 
+}
